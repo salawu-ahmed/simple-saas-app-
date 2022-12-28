@@ -1,0 +1,54 @@
+.offers {
+    margin: 20px 20px;
+    text-align: center;
+}
+.column{
+    text-align: center;
+    border: 3px solid #DDDDDD;
+    width: 30%;
+    padding: 5px;
+}
+.column ul li{
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500px;
+    font-size: 14px;
+    color: #747474;
+    margin: 10px;
+}
+.column h2{
+    font-weight: 700px;
+    font-style: normal;
+    font-size: 24px;
+    text-transform: capitalize;
+}
+.column span{
+    font-weight: 800px;
+    font-style: normal;
+    font-size: 64px;
+    text-transform: capitalize;
+}
+.column .sub{
+    color: #747474;
+    font-size: 14px;
+    text-transform: lowercase;
+}
+
+.inner_wrapper a{
+    border: 3px solid #1465FA;
+    color: #1465FA;
+    padding: 5px 20px;
+    font-size: 14px;
+}
+
+/* SECOND PRICING COLUMN */
+.column:nth-child(2){
+    background-color: #2C3140;
+}
+.column:nth-child(2) .inner_wrapper{
+    color: #FFFFFF;
+}
+.column:nth-child(2) a{
+    background-color: #1465FA;
+    color: #FFFFFF;
+}

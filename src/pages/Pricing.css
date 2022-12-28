@@ -1,0 +1,61 @@
+/* HERO SECTION STYLES */
+.hero{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero h2{
+    font-weight: 900px;
+    font-size: 64px;
+    text-transform: capitalize;
+}
+.hero ul{
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    list-style: none;
+}
+.hero i {
+    color: #1465FA;
+    font-size: 18px;
+}
+.hero p {
+    font-weight: 900px;
+    font-size: 14px;
+    text-transform: capitalize;
+    text-align: center;
+    width: 70%;
+}
+.hero p::after{
+    content: 'get three months free';
+    font-family: 'Dancing Script', cursive;
+    font-size: 15px;
+    font-style: italic;
+    position: relative;
+    top: -30px;
+    left: -300px;
+    transform: rotateX(-45deg);
+}
+.hero p::before{
+    content: '';
+    height: 100px;
+    width: 5px;
+    background-color: #1465FA;
+    position: relative;
+    top: 20px;
+}
+
+/* THE PRICING SECTION CONTAINER */
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

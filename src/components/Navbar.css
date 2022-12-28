@@ -1,0 +1,28 @@
+.primary_nav{
+    width: 80%;
+    margin: 0 auto;
+}
+.logo{
+    font-weight: 700px;
+    font-style: normal;
+    font-size: 18px;
+}
+.nav_links{
+    width: 40%;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 500px;
+}
+.nav_link{
+    padding: 10px;
+    border-radius: 3px;
+}
+.nav_link a {
+    color: #000000;
+}
+.nav_link:nth-child(5){
+    background-color: #1465FA;
+}
+.nav_link:nth-child(5) a{
+    color: #FFFFFF;
+}
